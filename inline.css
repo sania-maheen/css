@@ -1,0 +1,24 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+
+    display: inline;
+
+   
+    color: white;                 
+    font-weight: bold;              
+    line-height: 100px;             
+    box-shadow: 4px 4px 10px gray; 
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
+}
+
+.box:hover {
+    transform: scale(1.1);           
+    box-shadow: 8px 8px 20px darkgray; 
+    background-color: mediumorchid;  
+}
